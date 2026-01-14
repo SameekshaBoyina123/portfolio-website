@@ -101,3 +101,14 @@ Inside it:
 - Open `index.html` in any browser (Chrome/Edge)
 - Refresh browser after changes
 
+## 📸 Output Screenshots
+
+### Home Page
+![aboutme Page](aboutme.png)
+
+### Skills Section
+![Skills Section](skill.png)
+
+### Contact Form
+![Contact Form](contact.png)
+
