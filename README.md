@@ -101,7 +101,3 @@ Inside it:
 - Open `index.html` in any browser (Chrome/Edge)
 - Refresh browser after changes
 
----
-
-## 🗂️ Code Structure (File Hierarchy)
-
