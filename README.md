@@ -112,3 +112,21 @@ Inside it:
 ### Contact Form
 ![Contact Form](contact.png)
 
+## Styling (CSS)
+This portfolio uses:
+- External CSS file `style.css`
+- CSS variables for color scheme
+- Flexbox for header layout
+- Grid layout for skills section
+- Hover effects on links and buttons
+- Responsive design using media queries
+## 📸 Output Screenshots
+
+### Home Page
+![aboutme Page](img1.png)
+
+### Skills Section
+![Skills Section](img2.png)
+
+### Contact Form
+![Contact Form](img3.png)
