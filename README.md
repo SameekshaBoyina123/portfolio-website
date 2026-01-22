@@ -120,8 +120,27 @@ This portfolio uses:
 - Grid layout for skills section
 - Hover effects on links and buttons
 - Responsive design using media queries
-## 📸 Output Screenshots
 
+ ##CSS Concepts Used
+✅ 1) CSS Selectors
+This project uses multiple selectors such as:
+Element selectors: body, header, section
+Class selectors: .className (if used)
+ID selectors: #about, #skills, #contact
+Pseudo selectors: :hover, :focus
+✅ 2) CSS Variables
+Used :root variables to maintain a consistent color scheme:
+--primary-color
+--secondary-color
+--accent-color
+✅ 3) Layout Techniques
+Flexbox for header and navigation alignment
+Grid for arranging skills list neatly
+✅ 4) Hover Effects & Transitions
+Used hover effects to make UI interactive:
+Links change color/background on hover
+Button changes color and scales slightly
+## 📸 Output Screenshots
 ### Home Page
 ![aboutme Page](img1.png)
 
@@ -130,3 +149,5 @@ This portfolio uses:
 
 ### Contact Form
 ![Contact Form](img3.png)
+✅ Conclusion
+This project helped me understand CSS styling techniques such as selectors, colors, layouts, hover effects and responsive design. The final portfolio website is visually appealing and mobile-friendly.
