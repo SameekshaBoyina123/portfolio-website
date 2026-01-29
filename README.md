@@ -31,3 +31,12 @@ This portfolio uses:
 - Grid layout for skills section
 - Hover effects on links and buttons
 - Responsive design using media queries
+
+## JavaScript
+JavaScript is used to:
+- Add interactivity to the website
+- Validate contact form inputs
+- Show error and success messages
+- Show and hide sections dynamically
+- Implement dark/light mode
+- Use event listeners for click and submit actions
