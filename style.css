@@ -20,6 +20,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 a {
@@ -38,7 +39,7 @@ header {
   color: white;
   padding: 1rem 2rem;
 
-  display: flex;                /* Flexbox used */
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -74,6 +75,7 @@ section {
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s;
 }
 
 section h2 {
@@ -90,7 +92,7 @@ section h2 {
 
 /* ✅ Skills Layout using Grid */
 #skills ul {
-  display: grid;                 /* Grid used */
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
   margin-top: 10px;
@@ -107,7 +109,8 @@ form {
   margin-top: 10px;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 12px;
   margin-top: 6px;
@@ -115,9 +118,11 @@ input, textarea {
   border: 1px solid #ccc;
   border-radius: 8px;
   outline: none;
+  font-family: inherit;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border-color: var(--primary-color);
 }
 
@@ -134,7 +139,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--accent-color); /* hover effect */
+  background-color: var(--accent-color);
   transform: scale(1.03);
 }
 
@@ -147,6 +152,42 @@ footer {
   color: var(--secondary-color);
 }
 
+/* ============================= */
+/* ✅ DARK MODE (JavaScript) */
+/* ============================= */
+.dark-mode {
+  background-color: #121212;
+  color: #f4f6f8;
+}
+
+.dark-mode header {
+  background-color: #000;
+}
+
+.dark-mode section {
+  background-color: #1e1e1e;
+  box-shadow: none;
+}
+
+.dark-mode a {
+  color: #90caf9;
+}
+
+.dark-mode nav a:hover {
+  background-color: #333;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #2a2a2a;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark-mode button {
+  background-color: #555;
+}
+
 /* ✅ Responsive Design */
 @media (max-width: 768px) {
   header {
@@ -156,10 +197,11 @@ footer {
   }
 
   #skills ul {
-    grid-template-columns: 1fr; /* skills into 1 column for mobile */
+    grid-template-columns: 1fr;
   }
 
   main {
     padding: 10px;
   }
 }
+
