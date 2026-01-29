@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Interactive Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
 
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -15,34 +18,42 @@
   <header>
     <h1>Sameeksha Boyina</h1>
 
+    <!-- NAVIGATION -->
     <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
+      <a href="#about">About</a> |
+      <a href="#skills">Skills</a> |
       <a href="#contact">Contact</a>
     </nav>
+    <button onclick="toggleDarkMode()">Dark / Light Mode</button>
 
-    <!-- Dark Mode Button -->
-    <button onclick="toggleDarkMode()">🌙 Dark / Light</button>
+    <hr>
   </header>
 
   <!-- MAIN CONTENT -->
   <main>
 
-    <!-- TOGGLE BUTTON -->
-    <button id="toggleBtn">Show / Hide About Section</button>
-
     <!-- ABOUT SECTION -->
     <section id="about">
       <h2>About Me</h2>
+
+      <img src="sam.jpg" alt="My Profile Photo" width="200">
+
       <p>
-        I am a Computer Science Engineering student learning Web Development.
-        This portfolio includes JavaScript interactivity.
+        Hello! I am Sameeksha Boyina. I am a 3rd-year Computer Science Engineering student.
+        I am learning Full Stack Web Development and building projects.
       </p>
+
+      <p>
+        My goal is to become a skilled developer and work in a good IT company.
+      </p>
+      <hr>
     </section>
 
     <!-- SKILLS SECTION -->
     <section id="skills">
       <h2>Skills</h2>
+
+      <h3>Technical Skills</h3>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -50,32 +61,47 @@
         <li>C</li>
         <li>Python</li>
       </ul>
+
+      <h3>Soft Skills</h3>
+      <ol>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Problem Solving</li>
+      </ol>
+      <hr>
     </section>
 
     <!-- CONTACT SECTION -->
-    <section id="contact">
-      <h2>Contact Me</h2>
+   <section id="contact">
+  <h2>Contact Me</h2>
 
-      <form id="contactForm">
-        <input type="text" id="name" placeholder="Enter your name">
-        <input type="email" id="email" placeholder="Enter your email">
-        <textarea id="message" placeholder="Enter your message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+  <form id="contactForm">
+    <input type="email" id="email" placeholder="Enter your email">
+    <textarea id="message" placeholder="Enter your message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
 
-      <!-- ERROR / SUCCESS MESSAGE -->
-      <p id="formMsg"></p>
+  <p id="formMsg"></p>
+</section>
+      <p>
+        My LinkedIn:
+        <a href="https://www.linkedin.com/" target="_blank">Click Here</a>
+      </p>
+
+      <p>
+        My GitHub:
+        <a href="https://github.com/" target="_blank">Click Here</a>
+      </p>
+
     </section>
 
   </main>
 
   <!-- FOOTER -->
   <footer>
-    <p>© 2026 Sameeksha Boyina</p>
+    <hr>
+    <p>© 2026 Sameeksha Boyina. All Rights Reserved.</p>
   </footer>
-
-  <!-- JAVASCRIPT (IMPORTANT: before closing body) -->
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
-
