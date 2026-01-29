@@ -1,42 +1,83 @@
-# Personal Portfolio Website
+# Interactive Portfolio Website
 
 ## Project Overview
-This is a basic Personal Portfolio Website created using HTML.
-It includes About, Skills, and Contact sections.
+This project is an **Interactive Portfolio Website** created using **HTML, CSS, and JavaScript**.  
+JavaScript is used to add interactivity such as form validation, dynamic content, and user interactions.
+
+---
+
+## Project Objectives
+- Add JavaScript functionality to the portfolio website
+- Implement form validation with error messages
+- Create interactive elements using JavaScript
+- Use DOM manipulation and event handling
+- Organize files properly in GitHub
+
+---
 
 ## Technologies Used
-- HTML5
+- HTML
+- CSS
+- JavaScript
 
-## Folder Structure
+---
+
+## GitHub Folder Structure
 portfolio-website/
-- index.html
-- README.md
-- images/
+index.html
+style.css
+script.js
+README.md
+images/
 
-## Features
-- Navigation menu with internal links
-- About section with image
-- Skills section using lists
-- Contact form with validation
 
-## Setup Instructions
+---
+
+## JavaScript Features Implemented
+- Form validation for contact form
+- Show / Hide content using button click
+- Dark / Light mode toggle
+- Dynamic messages for errors and success
+- Saving user preference using localStorage
+
+---
+
+## Form Validation Logic
+- Checks if email contains `@`
+- Checks if message length is at least 10 characters
+- Displays error messages if validation fails
+- Displays success message when form is valid
+
+---
+
+## Interactive Elements
+1. Show / Hide About Section  
+2. Dark / Light Mode Toggle  
+3. Form Validation with Messages  
+
+---
+
+## Setup & Installation Instructions
 1. Download or clone the repository
-2. Open `index.html` in a browser
+2. Open the project folder in VS Code
+3. Open `index.html` in any web browser
+4. Test the interactive features
 
-## Styling (CSS)
-This portfolio uses:
-- External CSS file `style.css`
-- CSS variables for color scheme
-- Flexbox for header layout
-- Grid layout for skills section
-- Hover effects on links and buttons
-- Responsive design using media queries
+---
 
-## JavaScript
-JavaScript is used to:
-- Add interactivity to the website
-- Validate contact form inputs
-- Show error and success messages
-- Show and hide sections dynamically
-- Implement dark/light mode
-- Use event listeners for click and submit actions
+## Screenshots
+Screenshots of the working application are saved in the `images` folder.
+
+---
+
+## How Technical Requirements Are Met
+- `script.js` file is created and linked to HTML
+- Form validation implemented using JavaScript
+- More than 3 interactive features are added
+- Event listeners are used for click and submit actions
+- DOM manipulation is used to update content dynamically
+
+---
+
+## Conclusion
+This project helped me understand basic JavaScript concepts such as DOM manipulation, event handling, and form validation.
